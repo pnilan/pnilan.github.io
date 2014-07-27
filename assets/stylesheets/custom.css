@@ -258,7 +258,6 @@ a:hover, a:focus {
     .thumbnail-circle {
         height: 20em;
         width: 20em;
-        margin: 2em auto;
     }
 
     .thumbnail-circle img {
