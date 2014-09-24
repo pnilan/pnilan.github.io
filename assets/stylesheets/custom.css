@@ -222,7 +222,8 @@ a:hover, a:focus {
     top: 0;
     width: inherit;
     height: inherit;
-    background: url('/assets/images/background1.jpg') no-repeat 50% 25%;
+    background: url('/assets/images/background2.jpg') no-repeat 50% 25%;
+    background-size: cover;
     -webkit-filter: grayscale(1.0);
 }
 
@@ -384,6 +385,7 @@ a:hover, a:focus {
 
 .project-preview {
     text-align: left;
+    margin-bottom: 0;
 }
 
 .project-preview a {
@@ -400,8 +402,20 @@ a:hover, a:focus {
     margin-top: 5px;
 }
 
+.preview-container {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+}
+
 .preview {
     border-radius: 5px;
+    height: 150px;
+    background: url('/assets/images/secondwind1.png') no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    margin: 0 auto 15px;
+    border: solid #dddddd;
+    border-width: 1px;
 }
 
 
