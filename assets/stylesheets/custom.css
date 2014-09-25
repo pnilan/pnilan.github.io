@@ -13,6 +13,7 @@ i {
 p, p a, ul li, .top-bar-section ul li > a {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    line-height: 1.8;
 }
 
 /* Header */
@@ -47,7 +48,7 @@ a:hover, a:focus {
 
 @media only screen { 
     p {
-        text-align: center;
+        text-align: left;
     }
 
     .landing {
@@ -97,7 +98,7 @@ a:hover, a:focus {
         color: #fff;
         display: inline-block;
         background-color: #000;
-        padding: 0 0.5rem 0 0.5rem;
+        padding: 0.1rem 0.5rem 0.1rem 0.5rem;
         margin-top: 5px;
     }
 
@@ -106,7 +107,7 @@ a:hover, a:focus {
     }
     
     .inline-list li {
-        padding: 0 0.25rem 0 0.25rem;
+        padding: 0.1rem 0.25rem 0.1rem 0.25rem;
     }
     
     .list-icon {
@@ -205,7 +206,7 @@ a:hover, a:focus {
         color: #fff;
         display: inline-block;
         background-color: #000;
-        padding: 0 0.75rem 0 0.75rem;
+        padding: 0.1rem 0.75rem 0.1rem 0.75rem;
         margin-top: 0px;
     }
     
@@ -213,7 +214,7 @@ a:hover, a:focus {
         float: right;
         background-color: #000;
         margin-top: 5px;
-        padding: 0 0.5rem 0 0.5rem;
+        padding: 0.1rem 0.5rem 0.1rem 0.5rem;
     }
 }
 
