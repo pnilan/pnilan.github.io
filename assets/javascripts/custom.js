@@ -12,7 +12,6 @@ $(function() {
 		// Refreshes parallax content on window load and resize
 		responsive: true
 	});
-	console.log('Ran stellar');
 });
 
 
@@ -23,13 +22,13 @@ $(function() {
 		e.preventDefault();
 		var scrolldiv = $(this).attr('href');
 
-		$(scrolldiv).animatescroll({scrollSpeed:2500,easing:'easeInOutCubic'});
+		$(scrolldiv).animatescroll({scrollSpeed: 1000,easing:'easeInOutCubic'});
 	});
 
 	$('.top-bar-section ul li a').on('click', function(e) {
 		e.preventDefault();
 		var scrolldiv = $(this).attr('href');
-		$(scrolldiv).animatescroll({scrollSpeed:2500, easing:'easeInOutCubic'});
+		$(scrolldiv).animatescroll({scrollSpeed:1000, easing:'easeInOutCubic'});
 	});
 });
 
